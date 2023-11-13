@@ -21,6 +21,7 @@ app.post('/cadastro/salvar', (requisicao, resposta) => {
 
 })
 
+
 app.get('/cadastrar', (requisicao, resposta) => {
     resposta.sendFile(`${caminhoBase}/cadastro.html`)
 })
